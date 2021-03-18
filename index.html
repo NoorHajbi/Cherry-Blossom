@@ -57,9 +57,19 @@ style="background-color:powderblue; font-family: Comic Sans MS, Comic Sans, curs
     </main>
     <Footer style="color:#ff99ff; padding-top: 65px;"> &copy; Noor Hajbi 17/03/2021 </Footer>
     <script>
-        //User's Feedback
+        //User's Feedback:
+        
+        /*Prompt function(): returns what user input in a box. otherwise null.
+        When? if we want the user to input a value at first.
+        */
         var x= window.prompt("What is Your name?");
         var y= window.prompt("What Backgound color you want to choose\n1.White\n2.black\n3.purple\n4.Type anything if you don't need color to be changed");
+        /*confirm() function: if the user clicked (OK) returns true, otherwise false.
+        When? if we want to take the user's confirmation about something;
+        For Example: as E-commerce websites,
+         if you want to delete a product from a cart "Are you Sure?" Message will appear
+          and without user's confirmation the product will not be removed.
+        */
         var z = confirm("Welcome "+ x + ", Hope you liked it!");
         console.log("username prompt value = "+x);
         console.log("confirm value = "+z);
