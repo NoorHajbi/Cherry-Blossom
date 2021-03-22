@@ -3,12 +3,13 @@
         /*Prompt function(): returns what user input in a box. otherwise null.
         When? if we want the user to input a value at first.
         */
-        
+        /*
         var x= window.prompt("What is Your name?");
         while (x == '') {
            //if (x == '')
                 x= window.prompt("please enter your name");        
         }
+        
         var y= window.prompt("What Backgound color you want to choose\n1.White\n2.black\n3.purple\n4.none");
         /*confirm() function: if the user clicked (OK) returns true, otherwise false.
         When? if we want to take the user's confirmation about something;
@@ -16,6 +17,7 @@
          if you want to delete a product from a cart "Are you Sure?" Message will appear
           and without user's confirmation the product will not be removed.
         */
+       /*
         while (y) {
             if (y==1)
                 document.body.style.backgroundColor = "white";
@@ -35,7 +37,7 @@
         }
         y = !y;
         }
-
+       
         var imgIndex = new Array(); 
         //insert the URL of images in array  
         imgIndex[0] = "https://64.media.tumblr.com/0a423f1560b6379d350f3c997e73f57e/tumblr_p4vqvrVfca1x72yt1o1_500.png";  
@@ -56,3 +58,5 @@
         console.log("username prompt value = "+x);
         console.log("confirm value = "+z);
         //Background Color
+
+        //Functions helps reuse code; Just while define it once, use it any time.

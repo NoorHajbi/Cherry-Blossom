@@ -7,14 +7,21 @@
     <title>Sakura</title>
     <!-- Logo-->
     <link rel="icon" href="img/saq.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="css/index.css">
 </head>
-<body 
-style="background-color:powderblue; font-family: Comic Sans MS, Comic Sans, cursive;
- text-align:center; ">
+<body>
+    <nav>
+        <img class="logo" src="img/saq.png" width="50" height="50"/>
+        <ul type= "none"> 
+            <li><a href="#"> Home </a></li>
+            <li><a href="#gallery"> Gallery </a></li>
+            <li><a href="#footer"> footer </a></li>
+        </ul>
+    </nav>
     <header>
-        <h1 style="color: #ff00ff; padding:10px 0px 30px;">Japan in Cherry Blossom Season</h1>
+        <h1>Japan in Cherry Blossom Season</h1>
     </header>
-    <main style="color: #ff4dff;">
+    <main>
         <section>
             <img src="https://i.pinimg.com/originals/e3/27/ae/e327ae270c05500bcf438aa100622d4b.gif"
              alt="Cherry" width="400" height="300">
@@ -28,9 +35,9 @@ style="background-color:powderblue; font-family: Comic Sans MS, Comic Sans, curs
     </section>
     <section style="padding-top: 40px;">
             <h2> Sakura Gallery </h2>
-            <div>
-                <!--
-		<img   src="https://64.media.tumblr.com/0a423f1560b6379d350f3c997e73f57e/tumblr_p4vqvrVfca1x72yt1o1_500.png"
+            <div id="gallery">
+            
+                <img   src="https://64.media.tumblr.com/0a423f1560b6379d350f3c997e73f57e/tumblr_p4vqvrVfca1x72yt1o1_500.png"
              alt="Cherry" width="250" height="300">
              <p>(1)</p>
             </div>
@@ -50,8 +57,7 @@ style="background-color:powderblue; font-family: Comic Sans MS, Comic Sans, curs
             <div>
              <img id="img" src="https://i.pinimg.com/564x/e9/66/79/e96679e74561ad9c3b42738f71d44924.jpg"
              alt="Cherry" width="250" height="300">
-             <p>(4)</p>
-             -->	
+             <p>(4)</p>	
             </div>
 
     </section>
@@ -60,7 +66,8 @@ style="background-color:powderblue; font-family: Comic Sans MS, Comic Sans, curs
    
     <script src ="index.js">
     </script>
-     <Footer style="color:#ff99ff; padding-top: 65px;"> &copy; Noor Hajbi 17/03/2021 </Footer>
+     <Footer id="footer"> &copy; Noor Hajbi 17/03/2021 </Footer>
 </body>
 
 </html>
+
