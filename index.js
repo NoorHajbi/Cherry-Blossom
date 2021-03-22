@@ -48,22 +48,19 @@
             imgIndex[3] = "https://i.pinimg.com/564x/e9/66/79/e96679e74561ad9c3b42738f71d44924.jpg";  
     
             var result = '';
-            var numberOfImg = window.prompt("How many sakura images do you want?\nPrefer choose a number from 1 to 4");
+            var numberOfImg = window.prompt("How many sakura images do you want?\nPlease choose a number from 1 to 4");
             var imgs = '';
             if (numberOfImg>=1 && numberOfImg < 5){ 
             for (var i =0; i<numberOfImg; i++ ){
-                //if (i>=0 && i < 4){ 
                 imgs = '<img src="'+imgIndex[i]+'" width="250" height="300" style= "padding:6px 10px; margin-left:50px;"/>';
                 result+= imgs;   
              }  
             }
-                else{
+            else{
                 alert("please a number between 1 to 4")
                 generator() =0;
                 }    
-           // }
-            document.write(result);
-            
+            document.write(result); 
         }
         
         generator()
